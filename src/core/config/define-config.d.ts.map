@@ -1,0 +1,1 @@
+{"version":3,"file":"define-config.d.ts","sourceRoot":"","sources":["define-config.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEH,MAAM,WAAW,aAAa;IAC5B,UAAU,CAAC,EAAE,MAAM,CAAA;IACnB,SAAS,CAAC,EAAE,MAAM,CAAA;IAClB,eAAe,CAAC,EAAE,MAAM,CAAA;IACxB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAA;CACnB;AAED;;;GAGG;AACH,wBAAgB,YAAY,CAAC,MAAM,EAAE,aAAa,GAAG,aAAa,CAEjE"}

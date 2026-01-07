@@ -1,0 +1,56 @@
+{
+  "name": "@slotkitjs/core",
+  "version": "0.1.9",
+  "type": "module",
+  "description": "A dynamic and isolated plugin system framework",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./core": {
+      "types": "./dist/core/index.d.ts",
+      "import": "./dist/core/index.js"
+    }
+  },
+  "bin": {
+    "slotkit": "./bin/slotkit.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "build:types": "tsc --emitDeclarationOnly",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "echo 'linting...'",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "plugin",
+    "plugin-system",
+    "slot",
+    "framework"
+  ],
+  "author": "liusnew <liushuinew@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@vitest/ui": "^4.0.15",
+    "fast-check": "^4.3.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vitest": "^4.0.15"
+  }
+}

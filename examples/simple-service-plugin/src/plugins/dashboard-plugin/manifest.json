@@ -1,0 +1,29 @@
+{
+  "id": "dashboard-plugin",
+  "name": "仪表板插件",
+  "version": "1.0.0",
+  "description": "使用认证服务的仪表板",
+  "author": "SlotKit Team",
+  "license": "MIT",
+  "entry": "./index.ts",
+  "activationEvents": ["onStartup"],
+  "dependencies": {
+    "plugins": [
+      {
+        "id": "auth-plugin",
+        "version": "^1.0.0",
+        "optional": false
+      }
+    ],
+    "services": [
+      {
+        "interface": "IAuthService",
+        "optional": false
+      }
+    ]
+  },
+  "metadata": {
+    "category": "ui",
+    "tags": ["dashboard", "ui"]
+  }
+}

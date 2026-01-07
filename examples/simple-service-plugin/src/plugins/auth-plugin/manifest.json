@@ -1,0 +1,26 @@
+{
+  "id": "auth-plugin",
+  "name": "认证插件",
+  "version": "1.0.0",
+  "description": "提供认证服务",
+  "author": "SlotKit Team",
+  "license": "MIT",
+  "entry": "./index.ts",
+  "activationEvents": ["onStartup"],
+  "dependencies": {
+    "plugins": [],
+    "services": []
+  },
+  "contributes": {
+    "services": [
+      {
+        "interface": "IAuthService",
+        "scope": "singleton"
+      }
+    ]
+  },
+  "metadata": {
+    "category": "services",
+    "tags": ["auth", "security"]
+  }
+}
