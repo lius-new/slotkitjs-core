@@ -1,6 +1,6 @@
 {
   "name": "@slotkitjs/core",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "type": "module",
   "description": "A dynamic and isolated plugin system framework",
   "main": "./dist/index.js",
