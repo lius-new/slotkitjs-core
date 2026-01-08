@@ -130,3 +130,6 @@ export class ExtensionRegistryImpl implements ExtensionRegistry {
     }
   }
 }
+
+// 创建全局扩展点注册表实例
+export const extensionRegistry = new ExtensionRegistryImpl()
